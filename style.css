@@ -31,7 +31,11 @@ p {
   left: -566px;
 }
 
-.navigation {}
+.navigation {
+  display: flex; 
+  justify-content: center;
+  gap: 40px;
+}
 .navigation a {
   font-size: 16px;
 }
