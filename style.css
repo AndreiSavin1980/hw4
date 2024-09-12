@@ -47,8 +47,13 @@ p {
   left: -941;
   margin-bottom: 197px;
 }
-.mainContent {}
-.mainContent__leftside {}
+.mainContent {
+ display: flex;
+ justify-content: space-between;
+}
+.mainContent__leftside {
+  max-width: 522px;
+}
 .mainContent__leftside-btnList
 
 .footer {
