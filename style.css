@@ -45,6 +45,11 @@ p {
 .menu {
 display: flex;  
 justify-content: space-between;
+width: 1170px;
+height: 40px;
+top: -367px;
+left: -566px;
+border: 1px;
 }
 
 .main {
@@ -71,7 +76,6 @@ justify-content: space-between;
   padding: 15px 30px ;
   font-size: 20px;
   cursor: pointer;
-  border: none;
 
 }
 
